@@ -56,7 +56,6 @@ python run.py --status        # Hali ya mfumo
 python run.py --list-docs     # Orodha ya nyaraka
 python run.py --reset         # Futa KILA KITU
 python run.py --reset-chats   # Futa mazungumzo tu
-```
 
 #Amri Wakati wa Mazungumzo
 /exit   - Toka
