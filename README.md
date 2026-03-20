@@ -10,14 +10,11 @@ Mfumo wa Retrieval-Augmented Generation (RAG) wenye lugha nyingi, ukitumia:
 sanidi wa Haraka.
 
 #Linux and macOS
-git clone <repo>
-cd rag-multilingual
 chmod +x setup.sh
 ./setup.sh
 source venv/bin/activate
 
 #Windows (PowerShell)
-cd rag-multilingual
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\setup.ps1
 .\venv\Scripts\Activate.ps1
