@@ -136,3 +136,5 @@ PDF, Word (docx), Maandishi (txt) and Markdown (md).
 -RAM: 8GB+ (16GB inapendekezwa kwa DeepSeek 6.7B)
 -Disk: 10GB+ kwa modeli
 -OS: Linux, macOS, Windows 10+
+mfumo huu ni private, unatengenezwa kwa malengo ya kielimu zaidi.
+ni version ya kwanza itaendelea kuwa na version tofauti tofauti katika siku za usoni.
