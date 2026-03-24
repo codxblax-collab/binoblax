@@ -1,4 +1,5 @@
-RAG Multilingual.
+RAG Multilingual. Binoblax 
+
 Mfumo wa Retrieval-Augmented Generation (RAG) wenye lugha nyingi, ukitumia:
 
 -LLM, DeepSeek Coder 6.7B (4-bit quantized via Ollama) 
