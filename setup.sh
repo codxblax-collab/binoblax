@@ -15,9 +15,7 @@ warning() { echo -e "${YELLOW}[⚠️ ]${RESET} $1"; }
 error()   { echo -e "${RED}[❌]${RESET} $1"; exit 1; }
 
 echo ""
-echo "╔══════════════════════════════════════════════════╗"
 echo "     🌍 RAG Multilingual - Setup Script 🌍     "
-echo "╚══════════════════════════════════════════════════╝"
 echo ""
 
 # 1. Angalia Python
@@ -114,15 +112,13 @@ from src.config import config
 from src.document_processor import DocumentProcessor
 dp = DocumentProcessor()
 chunks = dp.process_text('Habari! Hii ni jaribio la mfumo wa RAG Multilingual.')
-print(f'  ✅ DocumentProcessor: vipande {len(chunks)}')
-print('  ✅ Mipangilio imepakiwa vizuri.')
+print(f'  DocumentProcessor: vipande {len(chunks)}')
+print('  Mipangilio imepakiwa vizuri.')
 " && success "Mtihani wa msingi umefaulu." || warning "Hitilafu katika mtihani wa msingi."
 
 # Mwisho
 echo ""
-echo "╔══════════════════════════════════════════════════╗"
 echo "            ✅ Usanidi Umekamilika!            "
-echo "╚══════════════════════════════════════════════════╝"
 echo ""
 echo "Hatua zifuatazo:"
 echo "  1.Amilisha mazingira:  source venv/bin/activate"
